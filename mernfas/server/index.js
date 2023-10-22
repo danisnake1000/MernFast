@@ -3,8 +3,8 @@ import { connectDB } from './db.js';
 import { PORT } from './config.js';
 
 
-connectDB()
+  connectDB()
 
 
-app.listen(PORT);
-console.log(`Puerto escuchando`, PORT);
+app.listen(5000);
+ console.log(`Puerto escuchando`, PORT);
